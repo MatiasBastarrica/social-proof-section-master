@@ -27,3 +27,17 @@ img {
   max-width: 100%;
   display: block;
 }
+
+/* ### UTILITIES ### */
+
+.text-dark-magenta {
+  color: var(--primary-very-dark-magenta);
+}
+
+.text-pink {
+  color: var(--primary-soft-pink);
+}
+
+.stack > * + * {
+  margin-top: var(--stack-gap, 1rem);
+}
