@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/social-proof-section-with-grid-and-flexbox-wdQSp39iKE)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/social-proof-section-master/)
 
 ## My process
