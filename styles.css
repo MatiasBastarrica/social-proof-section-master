@@ -49,6 +49,8 @@ body {
   background-color: var(--neutral-white);
   font-size: 0.938rem;
   font-weight: var(--fw-400);
+  background: top left no-repeat url(./images/bg-pattern-top-mobile.svg),
+    bottom right no-repeat url(./images/bg-pattern-bottom-mobile.svg);
 }
 
 main {
@@ -170,6 +172,11 @@ main {
 /* ### MEDIA QUERIES ### */
 
 @media (min-width: 60em) {
+  body {
+    background: top left no-repeat url(./images/bg-pattern-top-desktop.svg),
+      bottom right no-repeat url(./images/bg-pattern-bottom-desktop.svg);
+  }
+
   .grid {
     max-width: 1100px;
     grid-template-areas:
